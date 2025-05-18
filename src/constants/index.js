@@ -1,3 +1,4 @@
+import { j } from "maath/dist/misc-19a3ec46.esm";
 import{
     mobile,
     backend,
@@ -24,6 +25,7 @@ import{
     tripguide,
     threejs,
   } from "../assets";
+import { c } from "maath/dist/index-0332b2ed.esm";
   
   export const navLinks = [
     {
@@ -116,51 +118,40 @@ import{
   
   const experiences = [
     {
-      title: "None",
-      company_name: "None",
-      icon: creator,
+      title: "Full stack Developer",
+      company_name: "BrainBin",
+      icon: jobit,
+      iconBg: "#E6DEDD",
+      date: "Dec 2024 - Jan 2025",
+      points: [
+        "Build a full-stack notes app enabling CRUD operations using React, improving productivity for over 100+ users.",
+        "Delivered an intuitive, distraction-free UI with responsive design principles.",
+        "Implementing responsive design and ensuring cross-browser compatibility."
+      ],
+    },
+    {
+      title: "Web Developer",
+      company_name: "Mockify",
+      icon: carrent,
+      iconBg: "#E6DEDD",
+      date: "Mar 2025 - Apr 2025",
+      points: [
+        "Developed an AI-driven mock interview platform using React and Gemini API to simulate real-world interviews through NLP",
+        "Dynamically generated domain-specific questions and provided real-time feedback with performance scoring.",
+        "Enhanced interview readiness by offering personalized improvement tips after each session.",
+      ],
+    },
+    {
+      title: "Web Developer",
+      company_name: "VentureVista",
+      icon: tripguide,
       iconBg: "#383E56",
-      date: "None",
-      points: [ "None" ],
-    // },
-    // {
-    //   title: "React Native Developer",
-    //   company_name: "Tesla",
-    //   icon: tesla,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2021 - Feb 2022",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
-    // {
-    //   title: "Web Developer",
-    //   company_name: "Shopify",
-    //   icon: shopify,
-    //   iconBg: "#383E56",
-    //   date: "Jan 2022 - Jan 2023",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
-    // {
-    //   title: "Full stack Developer",
-    //   company_name: "Meta",
-    //   icon: meta,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2023 - Present",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
+      date: "Dec 2024 - Present",
+      points: [
+        " Engineered a full-stack adventure booking platform using MERN stack with role-based access (admin,traveler, provider).",
+        "Implemented dynamic search filters (location, activity, difficulty) to personalize user experience",
+        " Integrated secure booking and authentication flows for seamless trip planning.",
+      ],
     },
   ];
   
@@ -193,67 +184,67 @@ import{
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Mockify",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A web application that allows users to create and manage their own mock interviews, providing a platform for practicing coding and technical skills.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "firebase",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "shadcn/ui",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/iabhiy28/ai-mock-interview-app",
     },
     {
-      name: "Job IT",
+      name: "BrainBin",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A web application that allows users to create and manage their own mock interviews, providing a platform for practicing coding and technical skills.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Tailwind",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "javascript",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/iabhiy28/keeperr-app",
     },
     {
-      name: "Trip Guide",
+      name: "VentureVista",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Engineered a full-stack adventure booking platform using MERN stack with role-based access admin traveler provider, integrated payment gateway, and implemented JWT authentication.",
       tags: [
         {
-          name: "nextjs",
+          name: "Nodejs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "express",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "mongodb",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/iabhiy28/venture-vista",
     },
   ];
   
